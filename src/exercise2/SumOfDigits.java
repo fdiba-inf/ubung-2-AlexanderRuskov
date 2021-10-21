@@ -2,23 +2,19 @@ package exercise2;
 
 import java.util.Scanner;
 
-  public class SumOfDigits {
+import com.sun.accessibility.internal.resources.accessibility;
 
-    public static void main(String[] args) {
-     int a;
-
+public class SumOfDigits{
+  public static void main(String[] args ){
     Scanner input = new Scanner(System.in);
-    a = input.nextInt();
-    
-     int d1 = a % 10;
-     a = a % 10;
-     int d2 = a % 10;
-     a = a % 10;
-     int d3 = a % 10;
-     
-     int sum = d1 + d2 + d3;
+    int a = input.nextInt();
 
-     System.out.println("Sum of digits: " + sum);
-      input.close();
-    }
+    int D1 = a%10;
+    int D2 = (a/10)%10;
+    int D3 = (a/100)%10;
+    int Sum = D1 + D2 + D3;
+  
+    System.out.println("Sum of digits: " + Sum); 
+    input.close();
   }
+}
