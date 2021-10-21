@@ -2,8 +2,6 @@ package exercise2;
 
 import java.util.Scanner;
 
-import com.sun.accessibility.internal.resources.accessibility;
-
 public class SumOfDigits{
   public static void main(String[] args ){
     Scanner input = new Scanner(System.in);
