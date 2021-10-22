@@ -8,8 +8,8 @@ public class Circle {
      Scanner input = new Scanner(System.in);
 
      double R = input.nextDouble();
-     double C = 2 * Math.PI * R;
-     double A = R * R * Math.PI;
+     double C = 2 * 3.14* R;
+     double A = R * R * 3.14;
      
      System.out.println("Circumference: " + C);
      System.out.println("Area: " + A); 
