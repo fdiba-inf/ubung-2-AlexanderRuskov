@@ -13,9 +13,9 @@ public class EvenOrOddNumber {
     A = input.nextInt();
 
     if ( A % 2 == 0 )
-        System.out.println("The number is even");
+        System.out.println("Number is even");
      else
-        System.out.println("The number is odd");
+        System.out.println("Number is odd");
         input.close();
   }
 }
