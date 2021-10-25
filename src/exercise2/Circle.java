@@ -1,4 +1,4 @@
-гит аддpackage exercise2;
+package exercise2;
 
 import java.util.Scanner;
 
